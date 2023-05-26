@@ -90,11 +90,7 @@ ul{
     border:none;
     padding:10px;
 }
-.column1{
-    /*flex:1;
-    display:flex;
-    flex-direction: column;*/
-}
+
 .picture{
     border-radius:10px;
     width: 20vw;
@@ -107,7 +103,6 @@ ul{
     flex-direction: column;
 }
 .section2 h1{
-    36px, extra-bold, #1F2937
     font-size:36px;
     font-weight:900;
     color:#1F2937;
@@ -122,9 +117,6 @@ ul{
     border-color: #3882F6;
     object-fit: cover;
     overflow:hidden;
-}
-.section2 p{
-    padding:20px;
 }
 
 .card-container{
