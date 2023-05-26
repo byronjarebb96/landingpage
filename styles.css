@@ -22,14 +22,14 @@ Quote section background color
 Quote text
 36px, light italic, #1F2937
 */
-
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 body{
     display:flex;
     flex-direction:column;
     /*justify-content:space-between;*/
     height:100vh;
     background-color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Roboto", sans-serif;
     margin:0px;
     padding:0px; 
 }
