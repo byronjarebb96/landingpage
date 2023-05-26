@@ -31,7 +31,7 @@ body{
     background-color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin:0px;
-    padding:0px;
+    padding:0px; 
 }
 
 .header, .footer{
@@ -98,6 +98,40 @@ ul{
 .picture{
     border-radius:10px;
     width: 20vw;
+}
+
+/*Section 2*/
+.section2{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+}
+.section2 h1{
+    36px, extra-bold, #1F2937
+    font-size:36px;
+    font-weight:900;
+    color:#1F2937;
+}
+.section2 img{
+    width:150px;
+    height:150px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    border-color: #3882F6;
+    object-fit: cover;
+    overflow:hidden;
+}
+.section2 p{
+    padding:20px;
+}
+
+.card-container{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    gap:10px;
 }
 
 
