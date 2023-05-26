@@ -26,7 +26,7 @@ Quote text
 body{
     display:flex;
     flex-direction:column;
-    justify-content:space-between;
+    /*justify-content:space-between;*/
     height:100vh;
     background-color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -60,4 +60,48 @@ ul{
     text-decoration: none;
     color:white;
     
+}
+
+/*Section 1*/
+
+.section1{
+    margin:0px;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+}
+
+.section1 h1{
+    font-size:48px; 
+    font-weight:extra-bold;
+    color: #F9FAF8;
+}
+.section1 p{
+    font-size:18px;
+    color:#E5E7EB;
+}
+.section1 button{
+    background-color: #3882F6;
+    color:white;
+    font-size:14px;
+    font-weight:bold;
+    border-radius:10px;
+    width:8vw;
+    border:none;
+    padding:10px;
+}
+.column1{
+    /*flex:1;
+    display:flex;
+    flex-direction: column;*/
+}
+.picture{
+    border-radius:10px;
+    width: 20vw;
+}
+
+
+/*Footer*/
+.footer{
+    margin-top: auto;
 }
