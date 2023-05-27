@@ -42,6 +42,8 @@ body{
     justify-content: center;
     align-items: center;
     padding:25px;
+    padding-left:5vw;
+    padding-right:5vw;
 }
 .logo{
     font-size:24px;
@@ -67,11 +69,11 @@ ul{
 
 .section1{
     margin:0px;
-    padding:5vw;
+    padding:10vw;
     display: flex;
     align-items: center;
     background-color: #1F2937;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .section1 h1{
@@ -95,10 +97,12 @@ ul{
     border:none;
     padding:10px;
 }
+.column2{
+    flex-grow:15;
+}
 
-.picture{
-    border-radius:10px;
-    width: 20vw;
+iframe{
+    border-radius:15px;
 }
 
 /*Section 2*/
