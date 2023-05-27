@@ -23,13 +23,14 @@ Quote text
 36px, light italic, #1F2937
 */
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
 body{
     display:flex;
     flex-direction:column;
     /*justify-content:space-between;*/
     height:100vh;
-    background-color: aliceblue;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", "Roboto", sans-serif;
     margin:0px;
     padding:0px; 
 }
@@ -66,17 +67,21 @@ ul{
 
 .section1{
     margin:0px;
+    padding:5vw;
     display: flex;
+    align-items: center;
     background-color: #1F2937;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .section1 h1{
+    margin:0px;
     font-size:48px; 
-    font-weight:extra-bold;
+    font-weight:800;
     color: #F9FAF8;
 }
 .section1 p{
+    margin:0px;
     font-size:18px;
     color:#E5E7EB;
 }
@@ -86,7 +91,7 @@ ul{
     font-size:14px;
     font-weight:bold;
     border-radius:10px;
-    width:8vw;
+    width:150px;
     border:none;
     padding:10px;
 }
@@ -104,7 +109,7 @@ ul{
 }
 .section2 h1{
     font-size:36px;
-    font-weight:900;
+    font-weight: 800;
     color:#1F2937;
 }
 .section2 img{
@@ -130,7 +135,8 @@ ul{
     display:flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding:100px;
+    padding-left: 20vw;
+    padding-right: 20vw;
     /*
     font-size:36px;
     font-weight: 300;
@@ -138,8 +144,57 @@ ul{
     color:#1F2937;
     */
 }
+
 blockquote{
+    font-size:36px;
+    font-style: italic;
+    font-weight: 200;
+    color:#1F2937
+}
+figcaption{
+    font-weight:800;
+    text-align: right;
+    font-size:24px;
+}
+
+/*CTA*/
+.cta{
+    display:flex;
+    justify-content:space-around;
+    align-content: center;
+    gap:10px;
+    margin-top:25px;
+    margin-bottom: 25px;
+    margin-left:25vw;
+    margin-right:25vw;
+    padding:50px;
+    border-radius: 15px;
+    background-color: #3882F6;
+    color:white;
+}
+.cta h1,p{
     margin:0;
+}
+
+.cta div{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-evenly;
+}
+
+
+.cta-button{
+    align-self:center;
+    background-color: #3882F6;
+    color:white;
+    font-size:14px;
+    font-weight:bold;
+    border-color: white;
+    border-style: solid;
+    border-radius:10px;
+    width:120px;
+    padding:10px;
 }
 /*Footer*/
 .footer{
