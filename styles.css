@@ -93,13 +93,12 @@ ul{
     font-size:14px;
     font-weight:bold;
     border-radius:10px;
-    width:150px;
+    width:200px;
     border:none;
     padding:10px;
+    margin:10px;
 }
-.column2{
-    flex-grow:15;
-}
+
 
 iframe{
     border-radius:15px;
@@ -110,16 +109,24 @@ iframe{
     text-align: center;
     display:flex;
     flex-direction: column;
+    margin:50px;
 }
 .section2 h1{
     font-size:36px;
     font-weight: 800;
     color:#1F2937;
 }
+.section2 p{
+    margin:0px;
+    padding:0px;
+}
+.section2 a:link,a:visited{
+    text-decoration: none;
+    color:inherit;
+}
 .section2 img{
     width:150px;
     height:150px;
-    margin: 10px;
     border-style: solid;
     border-width: 5px;
     border-radius: 20px;
@@ -127,12 +134,17 @@ iframe{
     object-fit: cover;
     overflow:hidden;
 }
+.card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
 
+}
 .card-container{
     display:flex;
     justify-content: center;
-    text-align: center;
-    gap:10px;
+    gap:5vw;
 }
 /*Section 3 - Quote*/
 .section3{
